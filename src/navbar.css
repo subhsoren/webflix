@@ -1,0 +1,33 @@
+.nav {
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding: 20px;
+  height: 40px;
+  z-index: 1;
+  transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+.nav__black {
+  background: #111;
+}
+
+.nav a {
+  position: fixed;
+  font-size: 2rem;
+  text-decoration: none;
+  left: 20px;
+  color: red;
+  font-weight: 700;
+}
+.navbar__avatar {
+  position: fixed;
+  width: 40px;
+  right: 20px;
+  cursor: pointer;
+}
